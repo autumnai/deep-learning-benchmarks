@@ -105,6 +105,32 @@
             "version": "0.2"
           },
           {
+            "backward": 215,
+            "forward": 114,
+            "libraries": [
+              {
+                "name": "cuDNN",
+                "version": "3"
+              }
+            ],
+            "memory": "4950MB",
+            "name": "Torch",
+            "version": "19.01.2016"
+          },
+          {
+            "backward": 289,
+            "forward": 143,
+            "libraries": [
+              {
+                "name": "cuDNN",
+                "version": "3"
+              }
+            ],
+            "memory": "2400MB",
+            "name": "Caffe",
+            "version": "1.0.0"
+          },
+          {
             "backward": 621,
             "forward": 118,
             "libraries": [
@@ -138,6 +164,32 @@
             "version": "0.2"
           },
           {
+            "backward": 429,
+            "forward": 201,
+            "libraries": [
+              {
+                "name": "cuDNN",
+                "version": "3"
+              }
+            ],
+            "memory": "8250MB",
+            "name": "Torch",
+            "version": "19.01.2016"
+          },
+          {
+            "backward": 453,
+            "forward": 225,
+            "libraries": [
+              {
+                "name": "cuDNN",
+                "version": "3"
+              }
+            ],
+            "memory": "5650MB",
+            "name": "Caffe",
+            "version": "1.0.0"
+          },
+          {
             "backward": 1142,
             "forward": 228,
             "libraries": [
@@ -158,8 +210,8 @@
         "details": "...link...",
         "frameworks": [
           {
-            "backward": 418,
-            "forward": 180,
+            "backward": 361,
+            "forward": 138,
             "libraries": [
               {
                 "name": "cuDNN",
@@ -167,8 +219,21 @@
               }
             ],
             "memory": "8300MB",
-            "name": "Leaf",
-            "version": "0.2"
+            "name": "Torch",
+            "version": "19.01.2016"
+          },
+          {
+            "backward": 345,
+            "forward": 143,
+            "libraries": [
+              {
+                "name": "cuDNN",
+                "version": "3"
+              }
+            ],
+            "memory": "8100MB",
+            "name": "Caffe",
+            "version": "1.0.0"
           },
           {
             "backward": 871,
