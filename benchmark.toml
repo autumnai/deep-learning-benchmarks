@@ -47,7 +47,7 @@
 
     [[nvidia-titan-x.models.frameworks]]
       name = "Torch"
-      version = "19.01.2016"
+      version = "01/2016"
       forward = 33
       backward = 66
       memory = "1650MB"
@@ -96,7 +96,7 @@
 
     [[nvidia-titan-x.models.frameworks]]
       name = "Torch"
-      version = "19.01.2016"
+      version = "01/2016"
       forward = 114
       backward = 215
       memory = "4950MB"
@@ -145,7 +145,7 @@
 
     [[nvidia-titan-x.models.frameworks]]
       name = "Torch"
-      version = "19.01.2016"
+      version = "01/2016"
       forward = 201
       backward = 429
       memory = "8250MB"
@@ -183,7 +183,7 @@
 
     [[nvidia-titan-x.models.frameworks]]
       name = "Torch"
-      version = "19.01.2016"
+      version = "01/2016"
       forward = 138
       backward = 361
       memory = "8300MB"

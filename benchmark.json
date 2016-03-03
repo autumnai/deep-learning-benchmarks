@@ -56,7 +56,7 @@
             ],
             "memory": "1650MB",
             "name": "Torch",
-            "version": "19.01.2016"
+            "version": "01/2016"
           },
           {
             "backward": 85,
@@ -115,7 +115,7 @@
             ],
             "memory": "4950MB",
             "name": "Torch",
-            "version": "19.01.2016"
+            "version": "01/2016"
           },
           {
             "backward": 289,
@@ -174,7 +174,7 @@
             ],
             "memory": "8250MB",
             "name": "Torch",
-            "version": "19.01.2016"
+            "version": "01/2016"
           },
           {
             "backward": 453,
@@ -220,7 +220,7 @@
             ],
             "memory": "8300MB",
             "name": "Torch",
-            "version": "19.01.2016"
+            "version": "01/2016"
           },
           {
             "backward": 345,

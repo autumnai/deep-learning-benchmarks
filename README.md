@@ -34,11 +34,11 @@ The repository contains this [README](README.md) and
 You can consume the data like a JSON REST-API, by fetching
 
 ```
-https://cdn.rawgit.com/autumnai/deep-learning-benchmarks/master/benchmark.json
+https://raw.githubusercontent.com/autumnai/deep-learning-benchmarks/master/benchmark.json
 ```
 
 ```javascript
-fetch('https://cdn.rawgit.com/autumnai/deep-learning-benchmarks/master/benchmark.json')
+fetch('https://raw.githubusercontent.com/autumnai/deep-learning-benchmarks/master/benchmark.json')
   .then(function(response) {
     return response.json()
   }).then(function(json) {
