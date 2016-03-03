@@ -12,14 +12,19 @@ is inspired by soumith's [convnet-benchmarks][convnet-benchmarks] and zer0n's
 about the performance (operational speed, operational memory usage) of different
 Machine Learning Frameworks in various environments and machines. Like the other
 two repositories, `Deep Learning Benchmarks` highest goal is gaining objective,
-reproducible benchmarks, that is reviews by the community. New benchmark data is
-introduced through PRs, which process is described in more detail in the next
-topic.
+reproducible benchmarks, which are reviewed by the community. New benchmark data is
+introduced through PRs, its process is described in
+[Submitting Benchmark Date][submitting-benchmark-data].
 
 One advantage of structured, raw benchmark data is, that it can be easily
 queried, visualized and compared.
 [Autumn's Benchmark page][autumn-benchmark-page], provides an open interface for
 querying and visualizing the Deep Learning Benchmark data.
+
+[convnet-benchmarks]: https://github.com/soumith/convnet-benchmarks
+[deepframeworks]: https://github.com/zer0n/deepframeworks
+[submitting-benchmark-data]: #submitting-benchmark-data
+[autumn-benchmark-page]: http://autumnai.com
 
 ## Data
 
