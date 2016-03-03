@@ -34,7 +34,18 @@ The repository contains this [README](README.md) and
 You can consume the data like a JSON REST-API, by fetching
 
 ```
-https://github.com/autumnai/deep-learning-benchmarks/blob/master/benchmark.json
+https://cdn.rawgit.com/autumnai/deep-learning-benchmarks/master/benchmark.json
+```
+
+```javascript
+fetch('https://cdn.rawgit.com/autumnai/deep-learning-benchmarks/master/benchmark.json')
+  .then(function(response) {
+    return response.json()
+  }).then(function(json) {
+    console.log('parsed json', json)
+  }).catch(function(ex) {
+    console.log('parsing failed', ex)
+  })
 ```
 
 We use TOML for the original benchmark data file format (instead of JSON),
