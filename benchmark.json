@@ -1,0 +1,194 @@
+{
+  "nvidia-titan-x": {
+    "devices": [
+      {
+        "cores": "3072",
+        "memory": "12GB",
+        "memory_bandwith": "336.5GB/s",
+        "name": "Nvidia Titan X",
+        "quantity": 1
+      }
+    ],
+    "host": {
+      "cache": "8MB",
+      "cores": "8",
+      "cpu": "Intel(R) Core(TM) i7-2600K CPU @ 3.40GHz",
+      "os": "linux/arch",
+      "ram": "8GB"
+    },
+    "models": [
+      {
+        "details": "...link...",
+        "frameworks": [
+          {
+            "backward": 63,
+            "forward": 25,
+            "libraries": [
+              {
+                "name": "cuDNN",
+                "version": "4"
+              }
+            ],
+            "name": "Leaf",
+            "version": "0.2"
+          },
+          {
+            "backward": 71,
+            "forward": 31,
+            "libraries": [
+              {
+                "name": "cuDNN",
+                "version": "3"
+              }
+            ],
+            "memory": "1750MB",
+            "name": "Leaf",
+            "version": "0.2"
+          },
+          {
+            "backward": 66,
+            "forward": 33,
+            "libraries": [
+              {
+                "name": "cuDNN",
+                "version": "3"
+              }
+            ],
+            "memory": "1650MB",
+            "name": "Torch",
+            "version": "19.01.2016"
+          },
+          {
+            "backward": 85,
+            "forward": 42,
+            "libraries": [
+              {
+                "name": "cuDNN",
+                "version": "3"
+              }
+            ],
+            "memory": "1350MB",
+            "name": "Caffe",
+            "version": "1.0.0"
+          },
+          {
+            "backward": 202,
+            "forward": 46,
+            "libraries": [
+              {
+                "name": "cuDNN",
+                "version": "3"
+              }
+            ],
+            "memory": "11050MB",
+            "name": "Tensorflow",
+            "version": "0.7"
+          }
+        ],
+        "name": "Alexnet",
+        "type": "model"
+      },
+      {
+        "details": "...link...",
+        "frameworks": [
+          {
+            "backward": 226,
+            "forward": 106,
+            "libraries": [
+              {
+                "name": "cuDNN",
+                "version": "3"
+              }
+            ],
+            "memory": "5050MB",
+            "name": "Leaf",
+            "version": "0.2"
+          },
+          {
+            "backward": 621,
+            "forward": 118,
+            "libraries": [
+              {
+                "name": "cuDNN",
+                "version": "3"
+              }
+            ],
+            "memory": "11050MB",
+            "name": "Tensorflow",
+            "version": "0.7"
+          }
+        ],
+        "name": "Overfeat",
+        "type": "model"
+      },
+      {
+        "details": "...link...",
+        "frameworks": [
+          {
+            "backward": 418,
+            "forward": 180,
+            "libraries": [
+              {
+                "name": "cuDNN",
+                "version": "3"
+              }
+            ],
+            "memory": "8300MB",
+            "name": "Leaf",
+            "version": "0.2"
+          },
+          {
+            "backward": 1142,
+            "forward": 228,
+            "libraries": [
+              {
+                "name": "cuDNN",
+                "version": "3"
+              }
+            ],
+            "memory": "11000MB",
+            "name": "Tensorflow",
+            "version": "0.7"
+          }
+        ],
+        "name": "VGG [A]",
+        "type": "model"
+      },
+      {
+        "details": "...link...",
+        "frameworks": [
+          {
+            "backward": 418,
+            "forward": 180,
+            "libraries": [
+              {
+                "name": "cuDNN",
+                "version": "3"
+              }
+            ],
+            "memory": "8300MB",
+            "name": "Leaf",
+            "version": "0.2"
+          },
+          {
+            "backward": 871,
+            "forward": 197,
+            "libraries": [
+              {
+                "name": "cuDNN",
+                "version": "3"
+              }
+            ],
+            "memory": "11050MB",
+            "name": "Tensorflow",
+            "version": "0.7"
+          }
+        ],
+        "name": "GoogleNet",
+        "type": "model"
+      }
+    ],
+    "name": "Nvidia Titan X",
+    "type": "GPU"
+  }
+}
