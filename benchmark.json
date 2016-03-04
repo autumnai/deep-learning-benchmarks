@@ -92,6 +92,19 @@
         "details": "...link...",
         "frameworks": [
           {
+            "backward": 180,
+            "forward": 84,
+            "libraries": [
+              {
+                "name": "cuDNN",
+                "version": "4"
+              }
+            ],
+            "memory": "5050MB",
+            "name": "Leaf",
+            "version": "0.2"
+          },
+          {
             "backward": 226,
             "forward": 106,
             "libraries": [
@@ -150,6 +163,19 @@
       {
         "details": "...link...",
         "frameworks": [
+          {
+            "backward": 368,
+            "forward": 143,
+            "libraries": [
+              {
+                "name": "cuDNN",
+                "version": "4"
+              }
+            ],
+            "memory": "8300MB",
+            "name": "Leaf",
+            "version": "0.2"
+          },
           {
             "backward": 418,
             "forward": 180,

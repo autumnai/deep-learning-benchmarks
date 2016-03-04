@@ -86,6 +86,17 @@
     [[nvidia-titan-x.models.frameworks]]
       name = "Leaf"
       version = "0.2"
+      forward = 84
+      backward = 180
+      memory = "5050MB"
+
+      [[nvidia-titan-x.models.frameworks.libraries]]
+        name = "cuDNN"
+        version = "4"
+
+    [[nvidia-titan-x.models.frameworks]]
+      name = "Leaf"
+      version = "0.2"
       forward = 106
       backward = 226
       memory = "5050MB"
@@ -131,6 +142,17 @@
     name = "VGG [A]"
     type = "model"
     details = "...link..."
+
+    [[nvidia-titan-x.models.frameworks]]
+      name = "Leaf"
+      version = "0.2"
+      forward = 143
+      backward = 368
+      memory = "8300MB"
+
+      [[nvidia-titan-x.models.frameworks.libraries]]
+        name = "cuDNN"
+        version = "4"
 
     [[nvidia-titan-x.models.frameworks]]
       name = "Leaf"
