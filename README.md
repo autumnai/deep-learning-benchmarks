@@ -16,17 +16,20 @@ reproducible benchmarks, which are reviewed by the community. New benchmark data
 introduced through PRs, its process is described in
 [Submitting Benchmark Date][submitting-benchmark-data].
 
-One advantage of structured, raw benchmark data is, that it can be easily
-queried, visualized and compared.
-[Autumn's Benchmark page][autumn-benchmark-page], provides an open interface for
-querying and visualizing the Deep Learning Benchmark data.
-
 [convnet-benchmarks]: https://github.com/soumith/convnet-benchmarks
 [deepframeworks]: https://github.com/zer0n/deepframeworks
 [submitting-benchmark-data]: #submitting-benchmark-data
+
+## View Data
+
+One advantage of structured, raw benchmark data is, that it can be easily
+queried, visualized and compared.
+[Autumn's Benchmark page][autumn-benchmark-page], provides an open interface for
+querying, visualizing and later sharing the Deep Learning Benchmark data.
+
 [autumn-benchmark-page]: http://autumnai.com
 
-## Data
+## Raw Data
 
 The repository contains this [README](README.md) and
 [benchmark.toml](benchmark.toml), where all the benchmark data is stored.
