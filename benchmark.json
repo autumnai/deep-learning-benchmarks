@@ -59,6 +59,19 @@
             "version": "01/2016"
           },
           {
+            "backward": 54,
+            "forward": 28,
+            "libraries": [
+              {
+                "name": "cuDNN",
+                "version": "4"
+              }
+            ],
+            "memory": "1650MB",
+            "name": "Torch",
+            "version": "07/03/2016"
+          },
+          {
             "backward": 85,
             "forward": 42,
             "libraries": [
@@ -83,6 +96,19 @@
             "memory": "11050MB",
             "name": "Tensorflow",
             "version": "0.7"
+          },
+          {
+            "backward": 128,
+            "forward": 40,
+            "libraries": [
+              {
+                "name": "cuDNN",
+                "version": "4"
+              }
+            ],
+            "memory": "11520MB",
+            "name": "Tensorflow",
+            "version": "0.7.1"
           }
         ],
         "name": "Alexnet",
@@ -131,6 +157,19 @@
             "version": "01/2016"
           },
           {
+            "backward": 176,
+            "forward": 95,
+            "libraries": [
+              {
+                "name": "cuDNN",
+                "version": "4"
+              }
+            ],
+            "memory": "5000MB",
+            "name": "Torch",
+            "version": "07/03/2016"
+          },
+          {
             "backward": 289,
             "forward": 143,
             "libraries": [
@@ -155,6 +194,19 @@
             "memory": "11050MB",
             "name": "Tensorflow",
             "version": "0.7"
+          },
+          {
+            "backward": 300,
+            "forward": 119,
+            "libraries": [
+              {
+                "name": "cuDNN",
+                "version": "4"
+              }
+            ],
+            "memory": "11520MB",
+            "name": "Tensorflow",
+            "version": "0.7.1"
           }
         ],
         "name": "Overfeat",
@@ -203,6 +255,19 @@
             "version": "01/2016"
           },
           {
+            "backward": 367,
+            "forward": 165,
+            "libraries": [
+              {
+                "name": "cuDNN",
+                "version": "4"
+              }
+            ],
+            "memory": "8090MB",
+            "name": "Torch",
+            "version": "07/03/2016"
+          },
+          {
             "backward": 453,
             "forward": 225,
             "libraries": [
@@ -227,6 +292,19 @@
             "memory": "11000MB",
             "name": "Tensorflow",
             "version": "0.7"
+          },
+          {
+            "backward": 840,
+            "forward": 227,
+            "libraries": [
+              {
+                "name": "cuDNN",
+                "version": "4"
+              }
+            ],
+            "memory": "11520MB",
+            "name": "Tensorflow",
+            "version": "0.7.1"
           }
         ],
         "name": "VGG [A]",
@@ -247,6 +325,19 @@
             "memory": "8300MB",
             "name": "Torch",
             "version": "01/2016"
+          },
+          {
+            "backward": 342,
+            "forward": 131,
+            "libraries": [
+              {
+                "name": "cuDNN",
+                "version": "4"
+              }
+            ],
+            "memory": "8360MB",
+            "name": "Torch",
+            "version": "07/03/2016"
           },
           {
             "backward": 345,
@@ -273,6 +364,19 @@
             "memory": "11050MB",
             "name": "Tensorflow",
             "version": "0.7"
+          },
+          {
+            "backward": 757,
+            "forward": 195,
+            "libraries": [
+              {
+                "name": "cuDNN",
+                "version": "4"
+              }
+            ],
+            "memory": "11520MB",
+            "name": "Tensorflow",
+            "version": "0.7.1"
           }
         ],
         "name": "GoogleNet",

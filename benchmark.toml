@@ -57,6 +57,17 @@
         version = "3"
 
     [[nvidia-titan-x.models.frameworks]]
+      name = "Torch"
+      version = "07/03/2016"
+      forward = 28
+      backward = 54
+      memory = "1650MB"
+
+      [[nvidia-titan-x.models.frameworks.libraries]]
+        name = "cuDNN"
+        version = "4"
+
+    [[nvidia-titan-x.models.frameworks]]
       name = "Caffe"
       version = "1.0.0"
       forward = 42
@@ -77,6 +88,17 @@
       [[nvidia-titan-x.models.frameworks.libraries]]
         name = "cuDNN"
         version = "3"
+
+    [[nvidia-titan-x.models.frameworks]]
+      name = "Tensorflow"
+      version = "0.7.1"
+      forward = 40
+      backward = 128
+      memory = "11520MB"
+
+      [[nvidia-titan-x.models.frameworks.libraries]]
+        name = "cuDNN"
+        version = "4"
 
   [[nvidia-titan-x.models]]
     name = "Overfeat"
@@ -117,6 +139,17 @@
         version = "3"
 
     [[nvidia-titan-x.models.frameworks]]
+      name = "Torch"
+      version = "07/03/2016"
+      forward = 95
+      backward = 176
+      memory = "5000MB"
+
+      [[nvidia-titan-x.models.frameworks.libraries]]
+        name = "cuDNN"
+        version = "4"
+
+    [[nvidia-titan-x.models.frameworks]]
       name = "Caffe"
       version = "1.0.0"
       forward = 143
@@ -137,6 +170,17 @@
       [[nvidia-titan-x.models.frameworks.libraries]]
         name = "cuDNN"
         version = "3"
+
+    [[nvidia-titan-x.models.frameworks]]
+      name = "Tensorflow"
+      version = "0.7.1"
+      forward = 119
+      backward = 300
+      memory = "11520MB"
+
+      [[nvidia-titan-x.models.frameworks.libraries]]
+        name = "cuDNN"
+        version = "4"
 
   [[nvidia-titan-x.models]]
     name = "VGG [A]"
@@ -177,6 +221,17 @@
         version = "3"
 
     [[nvidia-titan-x.models.frameworks]]
+      name = "Torch"
+      version = "07/03/2016"
+      forward = 165
+      backward = 367
+      memory = "8090MB"
+
+      [[nvidia-titan-x.models.frameworks.libraries]]
+        name = "cuDNN"
+        version = "4"
+
+    [[nvidia-titan-x.models.frameworks]]
       name = "Caffe"
       version = "1.0.0"
       forward = 225
@@ -198,6 +253,17 @@
         name = "cuDNN"
         version = "3"
 
+    [[nvidia-titan-x.models.frameworks]]
+      name = "Tensorflow"
+      version = "0.7.1"
+      forward = 227
+      backward = 840
+      memory = "11520MB"
+
+      [[nvidia-titan-x.models.frameworks.libraries]]
+        name = "cuDNN"
+        version = "4"
+
   [[nvidia-titan-x.models]]
     name = "GoogleNet"
     type = "model"
@@ -213,6 +279,17 @@
       [[nvidia-titan-x.models.frameworks.libraries]]
         name = "cuDNN"
         version = "3"
+
+    [[nvidia-titan-x.models.frameworks]]
+      name = "Torch"
+      version = "07/03/2016"
+      forward = 131
+      backward = 342
+      memory = "8360MB"
+
+      [[nvidia-titan-x.models.frameworks.libraries]]
+        name = "cuDNN"
+        version = "4"
 
     [[nvidia-titan-x.models.frameworks]]
       name = "Caffe"
@@ -235,3 +312,14 @@
       [[nvidia-titan-x.models.frameworks.libraries]]
         name = "cuDNN"
         version = "3"
+
+    [[nvidia-titan-x.models.frameworks]]
+      name = "Tensorflow"
+      version = "0.7.1"
+      forward = 195
+      backward = 757
+      memory = "11520MB"
+
+      [[nvidia-titan-x.models.frameworks.libraries]]
+        name = "cuDNN"
+        version = "4"
