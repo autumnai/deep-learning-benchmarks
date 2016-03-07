@@ -14,7 +14,7 @@ Machine Learning Frameworks in various environments and machines. Like the other
 two repositories, `Deep Learning Benchmarks` highest goal is gaining objective,
 reproducible benchmarks, which are reviewed by the community. New benchmark data is
 introduced through PRs, its process is described in
-[Submitting Benchmark Date][submitting-benchmark-data].
+[Submitting Benchmark Data][submitting-benchmark-data].
 
 [convnet-benchmarks]: https://github.com/soumith/convnet-benchmarks
 [deepframeworks]: https://github.com/zer0n/deepframeworks
