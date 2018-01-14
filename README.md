@@ -27,7 +27,6 @@ queried, visualized and compared.
 [Autumn's Benchmark page][autumn-benchmark-page], provides an open interface for
 querying, visualizing and later sharing the Deep Learning Benchmark data.
 
-[autumn-benchmark-page]: http://autumnai.com
 
 ## Raw Data
 
